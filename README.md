@@ -15,7 +15,7 @@ DIY Network is for all the Denim DIY maniacs. Take your old pair of jeans and st
 
 ## Authors
 
-* **Kahani** - *Designer and DEveloper* - https://github.com/Kahani22
+* **Kahani** - *Designer and Developer* - https://github.com/Kahani22
 
 
 ## Acknowledgment/References
