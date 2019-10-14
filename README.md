@@ -1,6 +1,6 @@
 # DIY Network
 
-![DIY Network Logo](public/images/diy_logo.svg.png)
+![DIY Network Logo](public/images/diy_logo.svg.PNG)
 
 ## Keep Calm And DIY
 
