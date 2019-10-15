@@ -1,0 +1,131 @@
+html {
+  scroll-behavior: smooth; }
+
+img, embed, object, video {
+  max-width: 100%; }
+
+main {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; }
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+#container {
+  width: 100%;
+  max-width: 1360px;
+  min-width: 320px; }
+
+.hidden {
+  display: none; }
+
+.ideasImg {
+  width: 100%; }
+
+@media screen and (min-width: 640px) {
+  .ideasImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; } }
+a :hover {
+  transform: skew(-15deg); }
+
+#mainNav {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-weight: bold;
+  z-index: 99; }
+  #mainNav li a {
+    border-left: #393760 3px solid;
+    transition: all 1s ease;
+    padding-left: 10px; }
+  #mainNav li:hover a {
+    color: #ba7485;
+    font-size: 15px; }
+
+@media screen and (min-width: 768px) {
+  #mainNav {
+    font-size: 20px;
+    top: 40px;
+    right: 40px; }
+    #mainNav li {
+      padding-bottom: 8px; }
+    #mainNav li:hover a {
+      font-size: 23px; } }
+@media screen and (min-width: 1200px) {
+  #mainNav {
+    font-size: 20px;
+    top: 70px;
+    right: 70px; }
+    #mainNav li {
+      padding-bottom: 8px; }
+    #mainNav li:hover a {
+      font-size: 23px; } }
+#socialHead {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 5; }
+  #socialHead #fb {
+    width: 9px; }
+  #socialHead #inst {
+    width: 18px; }
+  #socialHead #twi {
+    width: 20px; }
+  #socialHead img:hover {
+    opacity: 0.5; }
+
+#tagline {
+  font-size: 70px;
+  text-align: center;
+  line-height: 70px;
+  z-index: 3;
+  color: black; }
+
+#intro {
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
+  z-index: 3;
+  color: black; }
+
+#mainFooter {
+  background-color: #4b4b4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #mainFooter h3 {
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 14px; }
+  #mainFooter a {
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 40px; }
+  #mainFooter img {
+    order: -1;
+    width: 70px;
+    padding-top: 30px; }
+
+@media screen and (min-width: 767px) {
+  #mainFooter {
+    flex-direction: row;
+    padding: 30px 40px; }
+    #mainFooter img {
+      order: 3;
+      margin-right: 0;
+      margin-left: 20px; }
+    #mainFooter img, #mainFooter a, #mainFooter h3 {
+      padding: 0;
+      font-size: 18px; }
+    #mainFooter a {
+      margin-left: auto;
+      margin-top: 0; } }
+
+/*# sourceMappingURL=main.css.map */
